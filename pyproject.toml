@@ -6,7 +6,7 @@ requires-python = ">=3.10"
 dependencies = ["torch", "cuda-python", "numpy"]
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "torch", "cuda-python", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [tool.uv.pip]
