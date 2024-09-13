@@ -1,0 +1,13 @@
+[project]
+name = "diff-surfel-rasterization"
+version = "0.1.0"
+description = "A differentiable rasterizer for 2DGS"
+requires-python = ">=3.10"
+dependencies = ["torch"]
+
+[build-system]
+requires = ["setuptools", "torch"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv.pip]
+extra-index-url = ["https://download.pytorch.org/whl/cu124"]
