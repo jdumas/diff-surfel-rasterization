@@ -9,5 +9,5 @@ dependencies = ["torch", "cuda-python", "numpy"]
 requires = ["setuptools", "torch", "cuda-python", "numpy"]
 build-backend = "setuptools.build_meta"
 
-[tool.uv.pip]
+[tool.uv]
 extra-index-url = ["https://download.pytorch.org/whl/cu124"]
